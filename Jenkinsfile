@@ -6,14 +6,9 @@ pipeline {
         sh '''label node1
 
 hello \'syed\''''
-      }
-    }
+        sh '''label \'node1\'
 
-    stage('stage2') {
-      steps {
-        sh '''label node2
-
-echo \'hello mahesh\''''
+echo \'hello syed\''''
       }
     }
 
